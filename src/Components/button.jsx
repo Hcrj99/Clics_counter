@@ -1,10 +1,13 @@
 import React from 'react';
 
-function Button({ text, isbuttonclick }) {
+function Button({ text, isbuttonclic, makeclic }) {
   return (
     <button 
-    className={ isbuttonclick ? 'buttonclick' : 'button-reset'}>
+    className={ isbuttonclic ? 'buttonclic' : 'button-reset'}
+    onClick={makeclic}>
       {text}
     </button>
   );
 }
+
+export default Button;
