@@ -1,6 +1,4 @@
 import './App.css';
-import './styles/Button.css'
-import './styles/Counter.css'
 import Button from './Components/button';
 import freeCodeCamplogo from './assets/img/freecodecamp-logo.png'
 import Counter from './Components/counter';
@@ -12,11 +10,11 @@ function App() {
 
   const makeclic = () => {
     setNumclics(numClics+1);
-  }
+  };
 
   const resetcounter = () => {
     setNumclics(0);
-  }
+  };
 
   return (
     <div className='App'>
