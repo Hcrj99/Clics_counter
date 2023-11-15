@@ -32,3 +32,13 @@ body {
 .Logo__container-logo{
   height: 50px;
 }
+
+.Counter__container {
+  height: 550px;
+  min-width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
